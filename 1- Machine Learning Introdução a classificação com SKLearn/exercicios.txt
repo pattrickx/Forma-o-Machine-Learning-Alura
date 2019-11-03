@@ -1,0 +1,20 @@
+Conteudo aula 1: 
+	Treinar algoritmos;
+	Definir características (features) do que desejamos classificar;
+	Classificar em categorias;
+	Utilizar o módulo linearSVC e accuracy_score;
+	Utilizar o método fit;
+	Prever dados com a função predict;
+	Calcular a taxa de acerto do modelo;
+	Comparar testes e previsões;
+	Utilizar a função soma;
+	Padronizar variáveis;
+
+AULA 1 parte 6 exercicio:
+ Resposta : 
+ Definir um modelo de treino, definir uma lista com dados para treino e dados com os resultados esperados,
+ treinar com base na lista de dados e nos resultados esperados.
+	Explicação alura:
+	"Com a definição do modelo para treino e com as listas de dados para treino e para teste, 
+	nós conseguimos efetuar o treinamento."
+
