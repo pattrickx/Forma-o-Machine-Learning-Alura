@@ -18,3 +18,23 @@ AULA 1 parte 6 exercicio:
 	"Com a definição do modelo para treino e com as listas de dados para treino e para teste, 
 	nós conseguimos efetuar o treinamento."
 
+Conteudo aula 2: 
+	Abrir arquivo CSV;
+	Imprimir as primeiras linhas com a função head;
+	Renomear as colunas;
+	Utilizar a função shape para ver a quantidade de elementos;
+	Separar dados para treino e teste;
+	Definir a ordem para os números aleatórios;
+	Utilizar a função value_counts.
+
+AULA 2 parte 6 exercicio:
+ Resposta : 
+ Definir um dicionário para modificar as colunas,
+ depois utilizar a função rename para renomear as colunas com as traduções necessárias.
+	Explicação alura:
+	"Caso opte por utilizar um dicionário:
+	mapa={ 'home':'Página inicial', 'services':'Serviços', 'contact':'Contato', 'purchased':'Comprou' }
+	dados = dados.rename(columns = mapa)
+	As colunas serão renomeadas, pois a função rename espera um dicionário para conseguir renomear as colunas"
+
+
