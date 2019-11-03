@@ -60,10 +60,26 @@ Conteudo aula 4:
 	Gerar valores randômicos com o módulo SVC;
 	Utilizar o módulo Standard Scale.
 
-AULA 3 parte 3 exercicio:
+AULA 4 parte 4 exercicio:
  Resposta : 
  Utilizar o módulo ‘svm.SVC’ para definir o gráfico.
 	Explicação alura:
 	"Ao utilizar o ‘svm.SVC’ ele gera o gráfico com os pontos fora do eixo X,
 	 e ainda mostra os pontos que estão quais pontos tem alguma proximidade."
+
+Conteudo aula 5: 
+	Alterar dados em colunas;
+	Utilizar o módulo datetime;
+	Criar colunas;
+	Remover colunas e linhas;
+	Utilizar o módulo dummie para gerar colunas;
+	Utilizar o módulo graphviz para gerar gráficos;
+	Definir propriedades gráficas na árvore de decisão.
+
+AULA 5 parte 5 exercicio:
+ Resposta : 
+ dados['KM'] = dados.MILHAS * 1.60934
+	Explicação alura:
+	"Ao utilizar o comando ‘ dados['KM'] = dados.MILHAS * 1.60934 ’ ,
+	 será criada uma nova coluna chamada KM com os valores de milhas convertidos para KM"
 
