@@ -11,7 +11,7 @@ mapa={
 }
 dados = dados.rename(columns = mapa)
 print(dados.head())
-####### inverter valores para facilitar a utilisaÃ§Ã£o 
+####### inverter valores para facilitar a utilisação 
 troca ={
     1:0,
     0:1
@@ -21,7 +21,7 @@ print(dados.head())
 
 import seaborn as sns 
 import matplotlib.pyplot as plt ## biblioteca grafica 
-# sns.scatterplot(x= "horas_esperadas", y= "preco", data= dados) #gera grafico de disperÃ§Ã£o 
+# sns.scatterplot(x= "horas_esperadas", y= "preco", data= dados) #gera grafico de disperção 
 # plt.show() ## mostra grafico
 # sns.scatterplot(x= "horas_esperadas", y= "preco", hue="finalizado", data= dados) #difere os grupos com cor usando o hue 
 # plt.show()
@@ -31,12 +31,12 @@ import matplotlib.pyplot as plt ## biblioteca grafica
 x= dados[["horas_esperadas", "preco"]]
 y= dados["finalizado"]
 
-from sklearn.svm import SVC ##biblioteca para treno e clasificaÃ§Ã£o
+from sklearn.svm import SVC ##biblioteca para treno e clasificação
 from sklearn.metrics import accuracy_score  ## biblioteca para conseguirmetricas dos dados
-from sklearn.model_selection import train_test_split # biblioteca para separaÃ§Ã£o de dados de teste e treino
+from sklearn.model_selection import train_test_split # biblioteca para separação de dados de teste e treino
 
 SEED= 20 #define ordem para aleatoriedade do random_state
-#stratify =y torna proporÃ§Ã£o de resultados para treno e teste semelantes baseado nos resultados
+#stratify =y torna proporção de resultados para treno e teste semelantes baseado nos resultados
 treino_x, teste_x, treino_y, teste_y = train_test_split(x,y, random_state=SEED, test_size=0.25, stratify =y)
 print("treino feito com: ", len(treino_x)," e teste feito com: ", len(teste_x))
 ############ treinando rede
@@ -73,9 +73,9 @@ from sklearn.preprocessing import StandardScaler
 import pandas as pd
 import seaborn as sns 
 import matplotlib.pyplot as plt ## biblioteca grafica
-from sklearn.svm import SVC ##biblioteca para treno e clasificaÃ§Ã£o
+from sklearn.svm import SVC ##biblioteca para treno e clasificação
 from sklearn.metrics import accuracy_score  ## biblioteca para conseguirmetricas dos dados
-from sklearn.model_selection import train_test_split # biblioteca para separaÃ§Ã£o de dados de teste e treino
+from sklearn.model_selection import train_test_split # biblioteca para separação de dados de teste e treino
 import numpy as np
 uri="https://gist.githubusercontent.com/guilhermesilveira/1b7d5475863c15f484ac495bd70975cf/raw/16aff7a0aee67e7c100a2a48b676a2d2d142f646/projects.csv"
 dados = pd.read_csv(uri)
@@ -88,7 +88,7 @@ mapa={
 }
 dados = dados.rename(columns = mapa)
 print(dados.head())
-####### inverter valores para facilitar a utilisaÃ§Ã£o 
+####### inverter valores para facilitar a utilisação 
 troca ={
     1:0,
     0:1
@@ -97,7 +97,7 @@ dados["finalizado"]=dados.nao_finalizado.map(troca)  ## cria nova coluna com os 
 print(dados.head())
 
  
-# sns.scatterplot(x= "horas_esperadas", y= "preco", data= dados) #gera grafico de disperÃ§Ã£o 
+# sns.scatterplot(x= "horas_esperadas", y= "preco", data= dados) #gera grafico de disperção 
 # plt.show() ## mostra grafico
 # sns.scatterplot(x= "horas_esperadas", y= "preco", hue="finalizado", data= dados) #difere os grupos com cor usando o hue 
 # plt.show()
@@ -110,7 +110,7 @@ y= dados["finalizado"]
 
 SEED= 5 #define ordem para aleatoriedade do random_state
 np.random.seed(SEED)
-#stratify =y torna proporÃ§Ã£o de resultados para treno e teste semelantes baseado nos resultados
+#stratify =y torna proporção de resultados para treno e teste semelantes baseado nos resultados
 raw_treino_x, raw_teste_x, treino_y, teste_y = train_test_split(x,y, test_size=0.25, stratify =y)
 print("treino feito com: ", len(treino_x)," e teste feito com: ", len(teste_x))
 ############ treinando rede
