@@ -55,4 +55,15 @@ AULA 3 parte 6 exercicio:
 	"O algoritmo base converte uma coluna deixando somente 0 ou somente 1.
 	 Com isso nós implementamos o teste do algoritmo e obtemos o resultado."
 
+Conteudo aula 4: 
+	Utilizar o módulo Support Vector Machine;
+	Gerar valores randômicos com o módulo SVC;
+	Utilizar o módulo Standard Scale.
+
+AULA 3 parte 3 exercicio:
+ Resposta : 
+ Utilizar o módulo ‘svm.SVC’ para definir o gráfico.
+	Explicação alura:
+	"Ao utilizar o ‘svm.SVC’ ele gera o gráfico com os pontos fora do eixo X,
+	 e ainda mostra os pontos que estão quais pontos tem alguma proximidade."
 
