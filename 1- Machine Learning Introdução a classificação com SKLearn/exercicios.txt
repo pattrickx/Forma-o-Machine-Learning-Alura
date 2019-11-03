@@ -38,3 +38,21 @@ AULA 2 parte 6 exercicio:
 	As colunas serão renomeadas, pois a função rename espera um dicionário para conseguir renomear as colunas"
 
 
+Conteudo aula 3: 
+	Trocar valores;
+	Usar a biblioteca seaborn;
+	Gerar um gráfico com dados do CSV;
+	Definir cores no gráfico;
+	Gerar gráficos distintos;
+	Criação de um algoritmo base;
+	Capturar os valores mínimos e máximos.
+	Utilizar a função arange do numpy
+
+AULA 3 parte 6 exercicio:
+ Resposta : 
+ O algoritmo base é implementado inserindo um número absoluto (0 ou 1) em uma das colunas de treino.
+	Explicação alura:
+	"O algoritmo base converte uma coluna deixando somente 0 ou somente 1.
+	 Com isso nós implementamos o teste do algoritmo e obtemos o resultado."
+
+
