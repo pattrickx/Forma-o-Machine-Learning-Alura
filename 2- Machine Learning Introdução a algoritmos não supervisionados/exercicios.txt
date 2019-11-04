@@ -47,4 +47,23 @@ aula 3 exercicio parte 3
  	dois grupos estão próximos quando olhamos em duas dimensões,
  	mas na verdade eles estão distantes em outras das n-dimensões."
 	
+aula 4 conteudo:
+	Qual o problema de termos muitos ou poucos grupos
+	Como é calculado o erro do modelo
+	O que é o elbow method
+	Como otimizar o número de clusters para o K-Means
+
+aula 4 exercicio parte 4
+	resposta:
+	Quanto mais grupos, mais segmentados os dados ficam.
+	Isso pode causar de existirem dados muito próximos - 
+	que pertenceriam ao mesmo grupo - ficarem em grupos diferentes.
+	Logo, o agrupamento não estaria correto
+	
+	Explicação alura:
+	"Quando o número de grupos é muito elevado, temos justamente o 
+	problema de existirem grupos muito semelhantes. Essa semelhança
+	faz com que talvez a melhor solução seja que estes dados estejam 
+	agrupados no mesmo grupo"
+	
 
