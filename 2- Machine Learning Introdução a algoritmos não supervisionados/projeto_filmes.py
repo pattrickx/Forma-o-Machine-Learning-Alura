@@ -21,4 +21,33 @@ generos_escalados=scaler.fit_transform(generos)
 from sklearn.cluster import KMeans ### lib de clusterisação
 modelo =KMeans(n_clusters=3) ### define numero de clusters
 modelo.fit(generos_escalados) ## treina com os dados e gera grupos
-print('Grupos{}'.format(modelo.labels_)) ## mostra gupos
+# print('Grupos{}'.format(modelo.labels_)) ## mostra gupos
+# print(generos.columns)
+# print(modelo.cluster_centers_)
+#################### aula 3
+import matplotlib.pyplot as plt
+
+grupos = pd.DataFrame(modelo.cluster_centers_, columns=generos.columns)
+
+# print(grupos)
+# grupos.plot.bar()
+grupos.transpose().plot.bar(subplots=True,sharex=False) ## transpose() faz a matriz transposta 
+plt.show()
+grupo = 0
+filtro=(modelo.labels_==grupo)
+#print(dados_filmes[filtro].sample(10)) #mostra parte dos dados de um dos grupos para verificação
+
+from sklearn.manifold import TSNE
+
+tsne=TSNE()
+visualizacao = tsne.fit_transform(generos_escalados)
+print(visualizacao)
+
+import seaborn as sns
+sns.set(rc={'figure.figsize':(13,13)})
+sns.scatterplot(x=visualizacao[:,0],y=visualizacao[:,1] , hue= modelo.labels_, palette=sns.color_palette('Set1',3))
+plt.show()
+
+# plt.scatter(visualizacao[:,0], visualizacao[:,1],c=modelo.labels_ ,s=1) #metodo alternativo
+# plt.show()
+

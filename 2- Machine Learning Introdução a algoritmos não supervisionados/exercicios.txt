@@ -28,5 +28,23 @@ aula 2 exercicio parte 3
 	Explicação alura:
 	"Alternativa correta! O K-Means precisa saber o número de grupos antes de ser instanciado.
 	 É a partir desse número que ele consegue classificar os dados."
+
+aula 3 conteudo:
+	Como reduzir a dimensão com TSNE
+	Como plotar um gráfico de pontos com o seaborn
+	Como visualizar os centróides
+	Como realizar filtros nos dataframes
+
+aula 3 exercicio parte 3
+	resposta:
+	Ao reduzirmos o número de dimensões, perdemos informações!
+	Por isso, quando plotamos o gráfico, podemos pensar quais 
+	grupos estão próximos uns dos outros, quando na verdade não estão 
+	
+	Explicação alura:
+	"Quando reduzimos a dimensionalidade, perdemos informações sobre
+ 	como os dados estão dispostos. Por exemplo, podemos pensar que
+ 	dois grupos estão próximos quando olhamos em duas dimensões,
+ 	mas na verdade eles estão distantes em outras das n-dimensões."
 	
 
