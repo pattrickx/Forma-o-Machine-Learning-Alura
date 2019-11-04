@@ -14,3 +14,19 @@ aula 1 exercicio parte 5
 	"Alternativa correta! Quando temos variáveis categóricas,
 	 uma manipulação muito comum é gerar os dummies da coluna categórica."
 	
+aula 2 conteudo:
+	A criar um modelo K-Means
+	Como o K-Means funciona
+	O que são os centroides
+	a visualização dos centroides e a sua classificação
+aula 2 exercicio parte 3
+	resposta:
+	O número de clusters representa o número de grupos que o K-Means irá utilizar para alocar os dados. 
+	Esse número é o quantidade de grupos que teremos ao final da execução do algoritmoPodemos utilizar 
+	o pandas para extrair os dummies das colunas. 
+	
+	Explicação alura:
+	"Alternativa correta! O K-Means precisa saber o número de grupos antes de ser instanciado.
+	 É a partir desse número que ele consegue classificar os dados."
+	
+
