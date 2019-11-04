@@ -1,0 +1,16 @@
+aula 1 conteudo:
+	O que são variáveis categóricas
+	O que são e como extrair os dummies
+	Como importar um dataset pelo pandas
+	Como concatenar dataframes
+	Como reescalar os dados
+aula 1 exercicio parte 5
+
+	resposta:
+	Podemos utilizar o pandas para extrair os dummies das colunas. 
+	Com isso, cada gênero será representado como uma coluna binária, 
+	na qual 0 significa que não possui o gênero e 1 que o possui.
+	Explicação alura:
+	"Alternativa correta! Quando temos variáveis categóricas,
+	 uma manipulação muito comum é gerar os dummies da coluna categórica."
+	
